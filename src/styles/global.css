@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    text-align: center;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  .hero {
+    padding: 60px;
+  }
+  .hero-buttons .primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+  }
+  .primary-btn {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+  }
+  .secondary-btn {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .services {
+    padding: 40px;
+  }
+  .service-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+  }
+  .service-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .contact {
+    padding: 30px;
+  }
+  

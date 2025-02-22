@@ -1,0 +1,116 @@
+/* Services Section */
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #6b00b6); /* Cool-toned gradient */
+  color: white;
+  text-align: center;
+}
+
+/* Services Title */
+.services-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #00eaff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 15px rgba(0, 234, 255, 0.8);
+}
+
+/* Services Container */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1200px;
+}
+
+/* Service Card */
+.service-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 18px rgba(255, 255, 255, 0.2);
+  max-width: 340px;
+  text-align: center;
+  transition: 0.3s;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Hover Effect */
+.service-card:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.06);
+  box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.4);
+}
+
+/* Service Icon */
+.service-icon {
+  font-size: 3.5rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-shadow: 0 0 12px rgba(255, 204, 0, 0.7);
+}
+
+/* Service Title */
+.service-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #f8f8ff;
+}
+
+/* Service Description */
+.service-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .services-title {
+    font-size: 2.5rem;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+  }
+
+  .service-description {
+    font-size: 1rem;
+  }
+
+  .service-card {
+    padding: 25px;
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    padding: 70px 15px;
+  }
+
+  .services-title {
+    font-size: 2.2rem;
+  }
+
+  .service-card {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .service-title {
+    font-size: 1.4rem;
+  }
+
+  .service-description {
+    font-size: 0.95rem;
+  }
+}

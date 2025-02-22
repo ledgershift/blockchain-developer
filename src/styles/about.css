@@ -1,0 +1,150 @@
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1a2a6c, #2a5298, #00d2ff); /* Smooth gradient */
+  color: white;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* About Title */
+.about-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #00eaff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 15px rgba(0, 234, 255, 0.8);
+}
+
+/* About Description */
+.about-description {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  max-width: 800px;
+  color: #f0f8ff;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+/* Skills Section */
+.skills-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffcc00;
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.9);
+}
+
+/* Skill Grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  max-width: 1000px;
+}
+
+/* Skill Box */
+.skill {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  padding: 18px 28px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(255, 81, 47, 0.3);
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background: linear-gradient(135deg, #dd2476, #ff512f);
+  transform: scale(1.08);
+  box-shadow: 0px 10px 25px rgba(255, 81, 47, 0.5);
+}
+
+/* Call to Action Button */
+.cta-button {
+  padding: 16px 35px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  background: #ffcc00;
+  color: black;
+  margin-top: 40px;
+  box-shadow: 0px 6px 15px rgba(255, 204, 0, 0.4);
+}
+
+.cta-button:hover {
+  background: white;
+  color: black;
+  transform: scale(1.08);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+  }
+
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .skills-grid {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 80px 15px;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .skill {
+    font-size: 1rem;
+    padding: 14px 22px;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}
