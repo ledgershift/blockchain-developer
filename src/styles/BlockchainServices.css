@@ -1,0 +1,102 @@
+/* Blockchain Services Section */
+.blockchain-services {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298, #6b00b6);
+  color: white;
+}
+
+/* Section Title */
+.blockchain-services h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #00eaff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 15px rgba(0, 234, 255, 0.8);
+}
+
+/* Blockchain Cards Container */
+.blockchain-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/* Individual Blockchain Card */
+.blockchain-card {
+  position: relative;
+  width: 280px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover Effect - Slight Expansion */
+.blockchain-card.hovered {
+  height: 240px;
+  box-shadow: 0 10px 20px rgba(0, 234, 255, 0.4);
+}
+
+/* Blockchain Logo */
+.blockchain-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Logo and Text Hover Effect */
+.blockchain-card.hovered .blockchain-logo {
+  transform: scale(1.1);
+}
+
+/* Blockchain Name */
+.blockchain-card h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffcc00;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Description (Initially Hidden, Keeps Space) */
+.blockchain-description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.4;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease-in-out;
+}
+
+/* Show Description on Hover */
+.blockchain-card.hovered .blockchain-description {
+  opacity: 1;
+  max-height: 100px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blockchain-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blockchain-card {
+    width: 90%;
+  }
+}
