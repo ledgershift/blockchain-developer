@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/blockchain-developer/static/css/main.0307f30e.css",
-    "main.js": "/blockchain-developer/static/js/main.5dedf807.js",
-    "static/js/453.0d356c16.chunk.js": "/blockchain-developer/static/js/453.0d356c16.chunk.js",
-    "static/media/ethereum-eth-logo.png": "/blockchain-developer/static/media/ethereum-eth-logo.a85b6de0dc4a013ae2f8.png",
-    "index.html": "/blockchain-developer/index.html",
-    "main.0307f30e.css.map": "/blockchain-developer/static/css/main.0307f30e.css.map",
-    "main.5dedf807.js.map": "/blockchain-developer/static/js/main.5dedf807.js.map",
-    "453.0d356c16.chunk.js.map": "/blockchain-developer/static/js/453.0d356c16.chunk.js.map"
+    "main.css": "/static/css/main.0307f30e.css",
+    "main.js": "/static/js/main.649b19e3.js",
+    "static/js/453.0d356c16.chunk.js": "/static/js/453.0d356c16.chunk.js",
+    "static/media/ethereum-eth-logo.png": "/static/media/ethereum-eth-logo.a85b6de0dc4a013ae2f8.png",
+    "index.html": "/index.html",
+    "main.0307f30e.css.map": "/static/css/main.0307f30e.css.map",
+    "main.649b19e3.js.map": "/static/js/main.649b19e3.js.map",
+    "453.0d356c16.chunk.js.map": "/static/js/453.0d356c16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0307f30e.css",
-    "static/js/main.5dedf807.js"
+    "static/js/main.649b19e3.js"
   ]
 }
